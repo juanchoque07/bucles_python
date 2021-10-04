@@ -21,7 +21,12 @@ fin = int(input('Ingrese el último número de la secuencia\n'))
 sumatoria = 0  # Inicializo el contador en 0
 
 # for ... in range(....)
+for numero in range(inicio,fin):
+    sumatoria += numero
 
+sumatoria_total= sumatoria + fin
+    
 # Imprimir el valor de la sumatoria
+print("La suma total es", sumatoria_total)
 
 print("terminamos!")
